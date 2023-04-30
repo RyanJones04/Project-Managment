@@ -1,0 +1,92 @@
+h1,h2,h3 {
+  font-family:Arial,Helvetica,sans-serif;
+  font-size: 18;
+  color: rgb(131,29,142)
+  }
+  
+h2 {
+  text-align: center;
+  width: 100%;
+  }
+
+#main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+#join-up-message {
+  height: 500px;
+  background-color: #eee;
+  text-align: center;
+
+}#sign-up{
+  height: 500px;
+  background-color: #eee;
+  text-align: left;
+  padding: 10px;
+}
+
+#join-up-message h2 {
+  padding-top: 200px;
+}
+
+#benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+#testimonials {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+
+}
+#testimonials blockquote {
+  max-width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  padding: 15px;
+  justify-content: space-around;
+  text-align: justify;
+  
+}
+
+#testimonials blockquote p {
+  font-style: italic;
+}
+
+#textholder1{
+  margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width: 980px;
+  text-align:center;
+  background-color: #eee;
+}
+
+#portfolios{
+  height: 35px;
+  text-align: left;
+  padding: 15px;
+  background-color:white;
+  display: flex;
+}
+
+.pSections{
+  width: 230px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
